@@ -1,0 +1,107 @@
+@font-face {
+    font-family: funkyFont;
+    src: url(SuperFunky-lgmWw.ttf);
+}
+
+body {
+    background-color: #2b2b2b;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sitle {
+    font-family: funkyFont;
+    border: 5px solid #00ff3c;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    background-color: #7dd0ff;
+}
+
+.sitle-cont {
+    width: 100%;
+    /* text-align: center; */
+    padding: 15px;
+    margin: 0;
+}
+
+.aboot-blurb {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.bar-thing a {
+    border: 5px solid #00ff3c;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #7dd0ff;
+    color: black;
+    text-decoration: none;
+}
+
+.bar-thing {
+    width: 100%;
+    padding: 30px;
+}
+
+.aboot-boxers {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.aboot-boxers p {
+    border: 5px solid #00ff3c;
+    border-radius: 15px;
+    background-color: #7dd0ff;
+    padding: 7px;
+    width: 270px;
+    /* min-width: 270px; */
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ass-burgers { /* Again, too late to change it :/ */
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.ass-burgers div {
+    width: 50%;
+    /* display: block; */
+    border: 5px solid #00ff3c;
+    border-radius: 15px;
+    background-color: #7dd0ff;
+    color: black;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.ass-burgers div img {
+    max-height: 180px;
+    border-radius: 12px;
+    border: 2px solid #00ff3c;
+    margin: 15px;
+}
+
+.ass-burgers div p {
+    width: 85%;
+    margin: auto;
+}
